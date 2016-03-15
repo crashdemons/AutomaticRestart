@@ -66,7 +66,7 @@ public final class ARPlugin extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("ar")) {
-            if(!sender.hasPermission("automaticrestart.ar") || !sender.isOp()) sender.sendMessage("You don't have permission to do this.");
+            if(!sender.hasPermission("automaticrestart.ar") || !sender.isOp()){ sender.sendMessage("You don't have permission to do this."); return true; }
             else{
                 if(args.length==1){
                     if(args[0].equalsIgnoreCase("now")){
