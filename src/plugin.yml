@@ -1,6 +1,6 @@
 name: AutomaticRestart
 main: com.github.crashdemons.automaticrestart.ARPlugin
-version: 0.1 (alpha)
+version: 0.2 (alpha)
 author: crashdemons
 commands:
    ar:

@@ -27,8 +27,8 @@ public class ARTask_restart extends BukkitRunnable {
         // What you want to schedule goes here
         plugin.getServer().broadcastMessage("Restarting now!");
         ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
-        //Bukkit.dispatchCommand(console, "restart");
-        Bukkit.dispatchCommand(console, "say DEBUG: restart");
+        Bukkit.dispatchCommand(console, "restart");
+        //Bukkit.dispatchCommand(console, "say DEBUG: restart");
     }
 
 }
