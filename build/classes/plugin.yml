@@ -1,14 +1,19 @@
 name: AutomaticRestart
 main: com.github.crashdemons.automaticrestart.ARPlugin
-version: 0.3 (alpha)
+version: 0.5 (beta)
 author: crashdemons
 description: Provides timed automatic restart capability.
 website: https://github.com/crashdemons/AutomaticRestart
 
 commands:
    ar:
-      description: Force restart with warning message at the time specified, or cancel a scheduled one.
-      usage: /ar [cancel|now|<hours> <minutes> <seconds>]
+      description: Changes automatic restart interval (for this session only), reloads settings, or retrieves information
+      usage: |
+        /ar <hours> <minutes> <seconds>
+        /ar cancel
+        /ar now
+        /ar reload
+        /ar status
       permission: automaticrestart.ar
       permission-message: You don't have permission for this command
 

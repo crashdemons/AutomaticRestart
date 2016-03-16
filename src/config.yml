@@ -1,0 +1,7 @@
+interval:
+    enabled: true
+    time:
+        h: 0
+        m: 90
+        s: 0
+        
