@@ -1,3 +1,4 @@
 /nbproject/private/
-/dist/lib/spigot-api-1.9-R0.1-SNAPSHOT.jar
+/dist/lib/spigot*
+/libraries/spigot*
 
