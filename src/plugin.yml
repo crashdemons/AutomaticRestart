@@ -1,6 +1,6 @@
 name: AutomaticRestart
 main: com.github.crashdemons.automaticrestart.ARPlugin
-version: 0.5 (beta)
+version: 0.6 (beta)
 author: crashdemons
 description: Provides timed automatic restart capability.
 website: https://github.com/crashdemons/AutomaticRestart
